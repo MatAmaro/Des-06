@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pedidoStyle.css">
+    <link rel="icon" type="image/x-icon" href="./images/pizza.ico" />
+    <title>Pizzaria Amaros</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="logo"><a href="./index.html">AMARO'S</a></div>
+            <div class="menu">
+                <a href="./index.html">Cardapio</a>
+                <a href="./menuEspecial.html">Especial</a>
+                <a href="./pedido.html">Pedido</a>
+            </div>            
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <form>
+                <div class = "form-header">
+                    <div class="Title">
+                        <h1>Pedido</h1>
+                    </div>
+                    
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder='Digite seu nome' required><br><br>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder='Digite seu email' required><br><br>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Telefone</label>
+                        <input id="phone" type="tel" name="phone" placeholder='(xx) 9xxxx-xxxx' required><br><br>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="pizza">Pizza</label>
+                        <input id="pizza" type="text" name="pizza" placeholder='Digite o nome da pizza' required><br><br>
+                    </div>
+                    <div class="input-box">
+                        <label for="bebida">Bebida</label>
+                        <input id="bebida" type="text" name="bebida" placeholder='Digite o nome da bebida' required><br><br>
+                    </div>
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder='Digite o seu endereço' required><br><br>
+                    </div>
+                    </div>
+
+                    <div class="send-button">
+                        <input type="submit" id="sub">
+                    </div>
+                    
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer-pedido">
+        <div class="contato">
+            <p>E-mail: amarospizza@amaros.com</p>
+            <p>Tel:(11) 4402-8922</p>
+            <br>
+            <p>&copy;2022</p>
+        </div>
+    </footer>
+  </body>
+</html>
